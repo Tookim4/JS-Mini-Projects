@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url(/girl_jellyfish_fantasy_5k.jpg);
+    background-color: rgba(0, 0, 0, 0.842);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    font-family: sans-serif;
+}
+
+.side-menu {
+    height: 99vh;
+    position: absolute;
+    background: #1313134b;
+    width: 20%; 
+    opacity: 1;
+    transform: translateX(-300px);
+    transition: all 0.5s ease-in-out;
+    margin: 3px;
+} .close-bar {
+    position: absolute;
+    top: 1%;
+    left: 85%;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+} .close-bar:hover {
+    color: teal;
+}
+.open-bar {
+    position: absolute;
+    margin: 30px 0px 0px 30px;
+    color: white;
+    cursor: pointer;
+} .open-bar:hover{
+    color: teal;
+}
+
+.menu-reveal {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+#my-logo{
+    width: 100%;
+}
+.menu-items {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.menu-items li{
+    padding: 20px;
+    list-style: none;
+    cursor: pointer;
+    transition: 0.4s;
+}.menu-items li:hover {
+    color: teal;
+}
+
+.land-page {
+    text-align: center;
+    width: 50%;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
+}.header {
+    font-family: 'Rubik',sans-serif;
+}.text {
+    font-family: 'Oregano',
+    cursive;
+}
+
+
+.btn{
+    text-decoration: none;
+    color: teal;
+    border: 2px solid teal;
+    border-radius: 0.3rem;
+    padding: 10px;
+    transition: 0.5s;
+}.btn:hover {
+    color: white;
+    background-color: teal;
+}
