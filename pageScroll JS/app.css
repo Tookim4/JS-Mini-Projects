@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+   /*  overflow: hidden;   */
+   overflow-x: hidden;
+}
+
+.landing-page {
+    height: 100vh;
+    background: url(./lion_mane_big_cat_grin_93320_1920x1080.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.664);
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+} .scroll-down {
+    text-decoration: none;
+    border: 1px solid rgba(255, 68, 0, 0.945);
+    padding: 10px;
+    color: rgba(255, 68, 0, 0.945);
+    margin: 10px;
+    transition: all 0.6s ease;
+} .scroll-down:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 68, 0, 0.945);
+}
+
+.about-page {
+    height: 100vh;
+} .about-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} .abt-img {    
+    width: 100%;
+    padding: 20px;
+    margin-top: 100px;
+} .scroll-up {
+    color: rgba(255, 68, 0, 0.945);
+    padding: 10px 20px;
+    border: 1px solid rgba(255, 68, 0, 0.945);
+    
+    transition: all 0.5s ease;
+}.scroll-up:hover {
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgba(255, 68, 0, 0.945);
+    background: rgba(255, 68, 0, 0.945);
+}
