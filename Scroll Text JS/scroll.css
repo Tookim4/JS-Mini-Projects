@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.land-section {
+    height: 70vh;
+}.land-img {
+    height: 70vh;
+    width: 100%;
+}
+
+.abt-section {
+    height: 100vh;
+}.abt-text {
+    width: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.abt-img {
+    width: 100%;
+    padding: 20px;
+    margin-top: 20%;
+}
+
+.abt-text {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
+}
+.abttext-appear {
+    width: 30%;
+    opacity: 1;
+    transform: translateY(0px);
+    font-size: 1.2rem;
+}
