@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url(/img/aeronauts_5k.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(184, 116, 240, 0.527);
+    background-blend-mode: overlay;
+}
+
+/* style the tabs */
+.tabs {
+    overflow: hidden;
+    font-size: 1.4rem;
+    font-family: 'Bubblegum Sans',cursive;
+    position: absolute;
+    top: 30%;
+    margin: 0px 0px 0px 20px;
+}.tabs li {
+    color: rgb(32, 14, 53);
+    margin: 20px;
+    list-style: none;
+    border: 2px solid rgb(32, 14, 53);
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+}.tabs li:hover {
+    color: #ffffff;
+    background-color: rgb(32, 14, 53);
+}.tab-li.active {
+    color: #ffffff;
+    background-color: rgb(32, 14, 53);
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+/* style the tab's contents */
+.den1-content {
+    color: white;
+    height: 80vh;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    text-align: center;
+    font-size: 1.3rem;
+    width:80%;
+    font-family: 'Acme',
+    sans-serif;
+    background-image: url(/img/jellyfish_fantasy_4k_3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.671);
+    background-blend-mode: overlay;
+    box-shadow: 0 4px 8px 0 rgb(32, 14, 53);
+}.head1 {
+    position: absolute;
+    top: 40%;
+    left: 62%;
+}.den1-text {
+    width: 40%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+} 
+
+.thecave-content {
+    color: white;
+    height: 80vh;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    text-align: center;
+    font-size: 1.3rem;
+    width: 80%;
+    font-family: 'Acme',
+    sans-serif;
+    background-image: url(/img/fantasy_journey.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.671);
+    background-blend-mode: overlay;
+    box-shadow: 0 4px 8px 0 rgb(32, 14, 53);
+}
+
+.head2 {
+    position: absolute;
+    top: 60%;
+    left: 72%;
+}
+
+.thecave-text {
+    width: 40%;
+    position: absolute;
+    top: 65%;
+    left: 60%;
+}
+
+.after-content {
+    color: white;
+    height: 80vh;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    text-align: center;
+    font-size: 1.3rem;
+    width: 80%;
+    font-family: 'Acme',
+    sans-serif;
+    background-image: url(/img/future.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.671);
+    background-blend-mode: overlay;
+    box-shadow: 0 4px 8px 0 rgb(32, 14, 53);
+}
+
+.head3 {
+    position: absolute;
+    top: 40%;
+    left: 22%;
+}
+
+.after-text {
+    width: 40%;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
